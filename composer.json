@@ -1,0 +1,27 @@
+{
+    "name": "sthom/fil-rouge",
+    "description": "Un microframework php",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sthom\\App\\": "src/",
+            "Sthom\\Kernel\\": "kernel/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sébastien THOMAS",
+            "email": "74055963+SebastienThomasDEV@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "symfony/var-dumper": "^6.4",
+        "phpunit/phpunit": "^11.5"
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "ext-pdo": "*"
+    }
+}
